@@ -8,3 +8,6 @@ while i<=n:
         print(n,"is Prime Number")
         break;
     i+=1
+'''if(i==n):
+    print("prime number")
+'''
