@@ -12,3 +12,9 @@ for i in a:
     print(f"{i}={a[i]}")
 for i in a:
     print(i)
+
+print(a.keys()) #print all keys in variable
+print(a.values()) #print all values in variable
+print(a.items()) #print all key values pairs in variable
+for k,v in a.items():
+    print(k,v)
