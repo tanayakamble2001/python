@@ -9,3 +9,12 @@ odd=[i for i in range(1,101,2)]
 print(even)
 print(odd)
 
+a=['robert','anuj','abc']
+capital=[i.upper() for i in a]
+print(capital)
+
+print([i for i in a if 'b' in i])
+
+
+
+
