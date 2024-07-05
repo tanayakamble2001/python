@@ -99,3 +99,104 @@
 ##a.show()
 ##
 ##a.display()
+
+#Local variable
+##class A:
+##    def show(self,roll_no,dep_name):
+##        print(roll_no,dep_name)
+##        name='ABCD'
+##        age=31
+##        print(name,age)
+##
+##    def display(self):
+##        print(dep_name)
+##        email='abc@gmail.com'
+##        branch='ExTC'
+##        print(name)
+##        print(email,branch)
+##
+##a=A()
+##a.show(123,'Mech')
+###print(a.name)
+##a.display()
+
+
+#Instant Variable
+##class A:
+##    def show(self,name,age,salary):
+##        a.name1=name
+##        self.age1=age
+##        self.salary1=salary
+##        print(a.name1,self.age1,self.salary1)
+##
+##    def display(self):
+##        print(a.name1,self.age1,self.salary1)
+##
+##a=A()
+##a.show('ABCDE',31,70000)
+##a.display()
+
+#Static Variable
+##class A:
+##    dep_name='Mech'
+##    print(dep_name)
+##    def show(self,name,age,salary):
+##        a.name1=name
+##        self.age1=age
+##        self.salary1=salary
+##        print(a.name1,self.age1,self.salary1,a.dep_name)
+##
+##    def display(self):
+##        print(a.name1,self.age1,self.salary1)
+##
+##a=A()
+##a.show('ABCDE',31,70000)
+##a.display()
+##print(a.dep_name)
+
+#User input
+##class A:
+##    def show(self):
+##        self.name=input('Enter your name:')
+##        self.age=int(input('Enter your age:'))
+##        self.salary=int(input('Enter your salary:'))
+##
+##    def display(self):
+##        print('My name is ',self.name)
+##        print('My age is ',self.age)
+##        print('Salary is ',self.salary)
+##
+##a=A()
+##a.show()
+##a.display()
+
+#call one method into another
+##class A:
+##    def show(self,name,address):
+##        print('Python Developer')
+##
+##    def display(self):
+##        self.show('Vihan','Pune')
+##        a.show('Gauri','itvedant')
+##        print('Java Developer')
+##
+##a=A()
+##a.show('rajesh','thane')
+##a.display()
+
+##class A:
+##    a=10
+##    b=20
+##    def demo(s):
+##        s.a=s.a+1
+##        A.b=A.b+1   #class name effect on static variable
+##        print(s.a,A.b)
+##
+##x=A()
+##x.demo()
+##
+##y=A()
+##y.demo()
+##
+##z=A()
+##z.demo()
