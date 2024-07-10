@@ -50,24 +50,72 @@
 ##x.display()
 ##x.show()
 
-class Engineer:
-    def study(s):
-        print("Engineer study method called.")
+#3)Hierarchical inheritance: One parent have multiple child
+#If multiple derived classes are created from the same base, this kind of inheritance is known as hierarchical inheritance.
+##class A:
+##    a=10
+##    def show(s):
+##        print("Python developer")
+##
+##class B(A):
+##    b=20
+##    def display(s):
+##        print("java developer")
+##
+##class C(A):
+##    c=30
+##    def demo(s):
+##        print()
+##        print("django developer")
+####b=B()
+####b.display()
+####b.show()
+##x=C()
+##x.demo()
+##x.show()
 
-    def show(s):
-        print("Engineer show method called.")
+#4) Multiple inheritance: If a child class inherits from more than one
+#class , i.e. this clid class is derived from multiple classes, we call
+#it multiple inheritance in Python.
+##class A:
+##    a=10
+##    def show(s):
+##        print("Python developer")
+##
+##class B:
+##    b=20
+##    def display(s):
+##        print("Java developer")
+##
+##class C(A,B):
+##    c=30
+##    def demo(s):
+##        print(s.c+s.b+s.a)
+##        print("django developer")
+##
+##x=C()
+###x.demo()
+###x.show()
+##x.display()
 
-class Doctor:
-    def study(s):
-        print("Doctor study method called.")
-
-    def display(s):
-        print("Doctor display method called.")
-
-class student(Engineer,Doctor):
-    def demo(s):
-        print("Pharmacis")
-
-s=student()
-s.demo()
-s.display()
+##class Engineer:
+##    def study(s):
+##        print("Engineer study method called.")
+##
+##    def show(s):
+##        print("Engineer show method called.")
+##
+##class Doctor:
+##    def study(s):
+##        print("Doctor study method called.")
+##
+##    def display(s):
+##        print("Doctor display method called.")
+##
+##class student(Engineer,Doctor):
+##    def demo(s):
+##        print("Pharmacist")
+##
+##s=student()
+##s.demo()
+##s.display()
