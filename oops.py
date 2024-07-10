@@ -121,7 +121,7 @@
 ##a.display()
 
 
-#Instant Variable
+#Instance Variable
 ##class A:
 ##    def show(self,name,age,salary):
 ##        a.name1=name
