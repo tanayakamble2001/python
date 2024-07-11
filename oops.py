@@ -20,10 +20,10 @@
 #class student  [user defined class]
 
 ##class student:
-##    name='abcde'  #static variables ,class variables
+##    name='abcde'  #static variables ,class variables: A variable is declared inside the class and outside the function is called static variable.
 ##    email='abc@gmail.com'
 ##    roll_no=121
-##s=student
+##s=student()
 ##print(s.name)
 ##print(s.email)
 ##print(s.roll_no)
@@ -121,7 +121,7 @@
 ##a.display()
 
 
-#Instance Variable
+#Instance Variable: A variable which is present inside the method with self key word.
 ##class A:
 ##    def show(self,name,age,salary):
 ##        a.name1=name

@@ -27,7 +27,7 @@
 #4) Multiple inheritance
 #5) Hybrid inheritance
 
-#2) The inheritance in which a class can be derived from another class is known as multilevel inheritance.
+#2) The inheritance in which a class can be derived from another derived class is known as multilevel inheritance.
 ##class A:
 ##    a=10
 ##    def show(s):
@@ -51,7 +51,7 @@
 ##x.show()
 
 #3)Hierarchical inheritance: One parent have multiple child
-#If multiple derived classes are created from the same base, this kind of inheritance is known as hierarchical inheritance.
+#If multiple derived classes are created from the same base class, this kind of inheritance is known as hierarchical inheritance.
 ##class A:
 ##    a=10
 ##    def show(s):
@@ -75,7 +75,7 @@
 ##x.show()
 
 #4) Multiple inheritance: If a child class inherits from more than one
-#class , i.e. this clid class is derived from multiple classes, we call
+#class , i.e. this child class is derived from multiple classes, we call
 #it multiple inheritance in Python.
 ##class A:
 ##    a=10
