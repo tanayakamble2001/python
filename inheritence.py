@@ -42,7 +42,7 @@
 ##    c=30
 ##    def data(s):
 ##        print(s.a+s.b+s.c)
-##        print("Childe method called.")
+##        print("Child method called.")
 ##
 ##x=C()
 ###print(x.c)
